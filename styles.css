@@ -1,8 +1,26 @@
+body {
+    font-family: Arial;
+    margin: 0px;
+}
+
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1F2937;
+    margin: 0px;
+}
+
+.header h2{
+    font-size: 24px;
+    color:#F9FAF8;
+    font-weight: bold;
 }
 
 ul {
     list-style-type: none;
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    color: #E5E7EB;
 }
