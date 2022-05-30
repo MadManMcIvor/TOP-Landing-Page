@@ -1,6 +1,6 @@
 body {
-    font-family: Arial;
     margin: 0px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header {
@@ -14,7 +14,7 @@ body {
 .header h2{
     font-size: 24px;
     color:#F9FAF8;
-    font-weight: bold;
+    font-weight: 900;
 }
 
 ul {
@@ -23,4 +23,42 @@ ul {
     gap: 20px;
     font-size: 18px;
     color: #E5E7EB;
+    font-weight: 100;
+}
+
+.one {
+    display: flex;
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 120px 150px;
+    gap: 50px;
+}
+
+#main-img {
+    width: 500px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color:#F9FAF8;
+    margin: 0px;
+}
+
+.one-left {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+button {
+    width: 120px;
+    background: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 0px;
+    padding: 8px 14px;
+    font-size: 20px;
 }
