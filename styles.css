@@ -62,3 +62,28 @@ button {
     padding: 8px 14px;
     font-size: 20px;
 }
+
+.two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    margin-bottom: 80px;
+}
+
+.two-stuff {
+    display: flex;
+    gap: 30px;
+    justify-content: space-evenly;
+}
+
+.two-stuff-item {
+    width: 150px;
+    height: auto;
+    color: #1F2937;
+    font-size: 18px;
+    font-weight: 100;
+}
